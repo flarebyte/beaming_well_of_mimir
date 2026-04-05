@@ -228,7 +228,7 @@ workflows:
         parameters:
           - description: |
               Pull request mode.
-            flags: -pr, --pull-request
+            flags: -p, --pull-request
         main:
           commands:
             - name: remove-build
